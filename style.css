@@ -150,9 +150,19 @@ body{
 /* section-1 */
 .section-1 {
     background: #A78BFA;
-box-shadow: 8px 0px 60px 0px rgba(109, 40, 217, 0.15);
+    box-shadow: 8px 0px 60px 0px rgba(109, 40, 217, 0.15);
+}
+.section-1 .tissue-massage-content{
+    background-color:rgba(109, 40, 217, 0.11) ;
 }
 
+.section-1 .facial-maddage-content {
+    background-color: rgba(109, 40, 217, 0.19);
+    opacity: 0.9;
+}
+.section-1 .body-treatment-content{
+    background-color: rgba(109, 40, 217, 0.15);
+}
 .section-1 .tissue-massage-content h1,
 .section-1 .facial-maddage-content h1,
 .section-1 .body-treatment-content h1{
@@ -212,6 +222,13 @@ line-height: 140%
     font-family: Work Sans;
     font-size: 24px;
     line-height: 140%;
+    padding-bottom: 15%;
+}
+@media screen and (max-width: 1250px) {
+    .order-now h5{
+        padding-bottom: 0%;
+        
+    }
 }
 .order-now .fa{
 color: #fff;
