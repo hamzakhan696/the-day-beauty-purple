@@ -234,7 +234,7 @@ margin-left: 10px;
     justify-content: center;
     padding-top: 5%;
 }
-.section-2 .bg-green{
+.section-2 .bg-purple{
     background: linear-gradient(46deg, #8B5CF6 0%, #8B5CF6 100%);
     margin-top: 15%;
     
@@ -322,7 +322,7 @@ margin-left: 10px;
     .btn-container {
         padding-bottom: 15%;
     }
-    .section-2 .bg-green{
+    .section-2 .bg-purple{
         margin-top: 10%;
     }
     
@@ -456,19 +456,19 @@ footer .contact-content{
 
 
 
-.bg-green{
+.bg-purple{
     height: 500px;
 }
 @media (min-width: 992px) {
-    .bg-green{
+    .bg-purple{
         margin-left: 12rem;
     }
 }
 @media (max-width: 992px) {
-    .bg-green{
+    .bg-purple{
         height: 100%;
     }
-    .bg-green .suger-scrub-content{
+    .bg-purple .suger-scrub-content{
         margin: 0;
         padding: 3rem 2rem 0;
     }
