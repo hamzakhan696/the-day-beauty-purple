@@ -63,6 +63,13 @@ body{
     border-top: 2px solid  #1F2937;
     width: 50%;
 }
+@media screen and (max-width: 492px) {
+    .register-pricing{
+        border-top: 2px solid  #1F2937;
+        width: 100%;
+    }
+    }
+
 .register-pricing h5{
     color: #1F2937;
     font-family: Work Sans;
